@@ -77,7 +77,7 @@ public class Chuckaluck {
         return false;
     }
 
-    private boolean biggerThanZero(BigInteger b1){
+    public static boolean biggerThanZero(BigInteger b1){
         return b1.compareTo(BigInteger.ZERO) == 1;
     }
 

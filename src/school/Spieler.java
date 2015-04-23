@@ -12,6 +12,8 @@ public class Spieler {
     public Spieler(int nr) {
         this.nr = nr;
         balance = BigInteger.valueOf(100);
+        g = BigInteger.ZERO;
+        es = BigInteger.ZERO;
     }
 
     public void setzeEinsatz(BigInteger einsatz) {
